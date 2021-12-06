@@ -13,7 +13,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          cache: gradle
           
       - run: echo "hello world 1"
     
