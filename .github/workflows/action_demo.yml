@@ -32,6 +32,7 @@ jobs:
         uses: pmd/pmd-github-action@7ed79622882840855e297f090460face22328ece
         with:
           rulesets: 'quickstart.xml'
+          run: pwd
 #      - name: Upload SARIF file
 #        uses: github/codeql-action/upload-sarif@v1
 #        with:
